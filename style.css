@@ -1,0 +1,48 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #1a1a1a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.button-wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.google-button {
+    display: inline-block;   
+    text-decoration: none;   
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.google-button:hover {
+    background-color: #0056b3;
+}
+
+.wrapper {
+    width: 100%;
+    margin-top: auto;
+}
+
+.end-text {
+    text-align: center;
+    white-space: pre-line;
+    margin-bottom: 20px;
+    color: #fff;
+}
